@@ -1,0 +1,337 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://lmorreale3.github.io/TranscribeHopkins/manifests/rosemanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Albi Rochegude 103",
+  "metadata" : [ {
+    "label" : "dc:source",
+    "value" : "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/manifest"
+  }, {
+    "label" : "numberOfIllustrations",
+    "value" : "16"
+  }, {
+    "label" : "date",
+    "value" : "15th century"
+  }, {
+    "label" : "commonName",
+    "value" : "Albi Rochegude 103"
+  }, {
+    "label" : "website",
+    "value" : ""
+  }, {
+    "label" : "origin",
+    "value" : "France"
+  }, {
+    "label" : "yearEnd",
+    "value" : "1500"
+  }, {
+    "label" : "repository",
+    "value" : "Bibliothèque municipale d'Albi"
+  }, {
+    "label" : "title",
+    "value" : "Roman de la Rose"
+  }, {
+    "label" : "type",
+    "value" : "manuscript"
+  }, {
+    "label" : "currentLocation",
+    "value" : "Albi, France"
+  }, {
+    "label" : "numberOfPages",
+    "value" : "139"
+  }, {
+    "label" : "material",
+    "value" : "parchment"
+  }, {
+    "label" : "width",
+    "value" : "200"
+  }, {
+    "label" : "dimensionUnits",
+    "value" : "mm"
+  }, {
+    "label" : "shelfmark",
+    "value" : "Rochegude 103"
+  }, {
+    "label" : "yearStart",
+    "value" : "1400"
+  }, {
+    "label" : "height",
+    "value" : "300"
+  }, {
+    "label" : "dimensions",
+    "value" : "200mm x 300mm"
+  }, {
+    "label" : "Title",
+    "value" : "Albi Rochegude 103"
+  }, {
+    "label" : "Description",
+    "value" : "Bibliothèque municipale d'Albi, Rochegude 103Bibliothèque municipale d'Albi, Rochegude 103\n<br /><br />\n"
+  }, {
+    "label" : "Created On",
+    "value" : "2022-11-01 16:48:13 UTC"
+  }, {
+    "label" : "In Scope",
+    "value" : "true"
+  } ],
+  "description" : "This is an annotated version of the original manifest produced by FromThePage",
+  "within" : {
+    "@type" : "sc:Collection",
+    "label" : "Roman de la Rose Digital Library",
+    "@id" : "https://fromthepage.com/iiif/collection/roman-de-la-rose-digital-library"
+  },
+  "related" : [ {
+    "format" : "text/html",
+    "label" : "Read Albi Rochegude 103",
+    "@id" : "https://fromthepage.com/jhu-libraries/roman-de-la-rose-digital-library/albi-rochegude-103"
+  }, {
+    "format" : "text/html",
+    "label" : "Table of Contents for Albi Rochegude 103",
+    "@id" : "https://fromthepage.com/jhu-libraries/roman-de-la-rose-digital-library/albi-rochegude-103/contents"
+  } ],
+  "seeAlso" : [ {
+    "label" : "Verbatim Plaintext",
+    "format" : "text/plain",
+    "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#verbatim-plaintext-1",
+    "@id" : "https://fromthepage.com/iiif/32038260/export/plaintext/verbatim"
+  }, {
+    "label" : "Emended Plaintext",
+    "format" : "text/plain",
+    "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#emended-plaintext",
+    "@id" : "https://fromthepage.com/iiif/32038260/export/plaintext/emended"
+  }, {
+    "label" : "Searchable Plaintext",
+    "format" : "text/plain",
+    "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#plaintext-for-full-text-search",
+    "@id" : "https://fromthepage.com/iiif/32038260/export/plaintext/searchable"
+  } ],
+  "service" : [ {
+    "@context" : "http://www.fromthepage.org/jsonld/1/context.json",
+    "@id" : "https://fromthepage.com/iiif/32038260/status",
+    "label" : "Work Status",
+    "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#service",
+    "pctComplete" : 0,
+    "pctTranscribed" : 0,
+    "pctOcrCorrected" : 0,
+    "pctIndexed" : 0,
+    "pctMarkedBlank" : 0,
+    "pctNeedsReview" : 0,
+    "pctTranslationComplete" : 0,
+    "pctTranslated" : 0,
+    "pctTranslationNeedsReview" : 0,
+    "pctTranslationIndexed" : 0,
+    "pctTranslationMarkedBlank" : 0,
+    "metadataStatus" : "undescribed",
+    "lastUpdated" : "2022-11-01 16:49:48 UTC"
+  } ],
+  "sequences" : [ {
+    "@id" : "https://fromthepage.com/iiif/32038260/sequence/default",
+    "@type" : "sc:Sequence",
+    "label" : "Pages",
+    "rendering" : [ {
+      "label" : "Verbatim Plaintext",
+      "format" : "text/plain",
+      "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#verbatim-plaintext",
+      "@id" : "https://fromthepage.com/jhu-libraries/roman-de-la-rose-digital-library/32038260/export/plaintext/verbatim"
+    }, {
+      "@id" : "https://fromthepage.com/iiif/32038260/export/html",
+      "label" : "XHTML Export",
+      "format" : "text/html",
+      "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#xhtml"
+    }, {
+      "@id" : "https://fromthepage.com/iiif/32038260/export/tei",
+      "label" : "TEI Export",
+      "format" : "application/tei+xml",
+      "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#tei-xml"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/001r/canvas",
+      "@type" : "sc:Canvas",
+      "label" : "1r",
+      "width" : 2395,
+      "height" : 3609,
+      "images" : [ {
+        "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.001r",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.001r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2395,
+          "height" : 3609,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.001r",
+            "profile" : "https://iiif.io/api/image/1.1/compliance/#level2"
+          }
+        },
+        "on" : "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/001r/canvas"
+      } ],
+      "related" : [ {
+        "label" : "Read this page",
+        "format" : "text/html",
+        "@id" : "https://fromthepage.com/display/display_page?page_id=32663725"
+      }, {
+        "label" : "Transcribe this page",
+        "format" : "text/html",
+        "@id" : "https://fromthepage.com/transcribe/display_page?page_id=32663725"
+      } ],
+      "seeAlso" : [ {
+        "label" : "HTML Transcription",
+        "format" : "text/html",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#html-transcription",
+        "@id" : "https://fromthepage.com/jhu-libraries/roman-de-la-rose-digital-library/albi-rochegude-103/annotation/32663725/html/transcription"
+      }, {
+        "label" : "Searchable Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#plaintext-for-full-text-search-1",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663725/plaintext/searchable"
+      }, {
+        "label" : "Verbatim Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#verbatim-plaintext-2",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663725/plaintext/verbatim"
+      }, {
+        "label" : "Emended Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#emended-plaintext-1",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663725/plaintext/emended"
+      } ],
+      "service" : {
+        "@context" : "http://www.fromthepage.org/jsonld/1/context.json",
+        "@id" : "https://fromthepage.com/iiif/32038260/32663725/status",
+        "label" : "Page Status",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#service-1"
+      }
+    }, {
+      "@id" : "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/002r/canvas",
+      "@type" : "sc:Canvas",
+      "label" : "2r",
+      "width" : 2416,
+      "height" : 3581,
+      "images" : [ {
+        "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.002r",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.002r/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2416,
+          "height" : 3581,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.002r",
+            "profile" : "https://iiif.io/api/image/1.1/compliance/#level2"
+          }
+        },
+        "on" : "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/002r/canvas"
+      } ],
+      "related" : [ {
+        "label" : "Read this page",
+        "format" : "text/html",
+        "@id" : "https://fromthepage.com/display/display_page?page_id=32663727"
+      }, {
+        "label" : "Transcribe this page",
+        "format" : "text/html",
+        "@id" : "https://fromthepage.com/transcribe/display_page?page_id=32663727"
+      } ],
+      "seeAlso" : [ {
+        "label" : "HTML Transcription",
+        "format" : "text/html",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#html-transcription",
+        "@id" : "https://fromthepage.com/jhu-libraries/roman-de-la-rose-digital-library/albi-rochegude-103/annotation/32663727/html/transcription"
+      }, {
+        "label" : "Searchable Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#plaintext-for-full-text-search-1",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663727/plaintext/searchable"
+      }, {
+        "label" : "Verbatim Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#verbatim-plaintext-2",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663727/plaintext/verbatim"
+      }, {
+        "label" : "Emended Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#emended-plaintext-1",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663727/plaintext/emended"
+      } ],
+      "service" : {
+        "@context" : "http://www.fromthepage.org/jsonld/1/context.json",
+        "@id" : "https://fromthepage.com/iiif/32038260/32663727/status",
+        "label" : "Page Status",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#service-1"
+      }
+    }, {
+      "@id" : "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/068v/canvas",
+      "@type" : "sc:Canvas",
+      "label" : "68v",
+      "width" : 2307,
+      "height" : 3584,
+      "images" : [ {
+        "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.068v",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.068v/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 2307,
+          "height" : 3584,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://image.library.jhu.edu/iiif/rose%2fAlbiRochegude103%2fAlbiRochegude103.068v",
+            "profile" : "https://iiif.io/api/image/1.1/compliance/#level2"
+          }
+        },
+        "on" : "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/068v/canvas"
+      } ],
+      "related" : [ {
+        "label" : "Read this page",
+        "format" : "text/html",
+        "@id" : "https://fromthepage.com/display/display_page?page_id=32663860"
+      }, {
+        "label" : "Transcribe this page",
+        "format" : "text/html",
+        "@id" : "https://fromthepage.com/transcribe/display_page?page_id=32663860"
+      } ],
+      "seeAlso" : [ {
+        "label" : "HTML Transcription",
+        "format" : "text/html",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#html-transcription",
+        "@id" : "https://fromthepage.com/jhu-libraries/roman-de-la-rose-digital-library/albi-rochegude-103/annotation/32663860/html/transcription"
+      }, {
+        "label" : "Searchable Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#plaintext-for-full-text-search-1",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663860/plaintext/searchable"
+      }, {
+        "label" : "Verbatim Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#verbatim-plaintext-2",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663860/plaintext/verbatim"
+      }, {
+        "label" : "Emended Plaintext",
+        "format" : "text/plain",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#emended-plaintext-1",
+        "@id" : "https://fromthepage.com/iiif/32038260/export/32663860/plaintext/emended"
+      } ],
+      "service" : {
+        "@context" : "http://www.fromthepage.org/jsonld/1/context.json",
+        "@id" : "https://fromthepage.com/iiif/32038260/32663860/status",
+        "label" : "Page Status",
+        "profile" : "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#service-1"
+      }
+    } ]
+  } ],
+  "otherContent" : [ {
+    "@id" : "https://fromthepage.com/iiif/32038260/layer/transcription",
+    "@type" : "sc:Layer",
+    "label" : "transcription layer"
+  }, {
+    "@id" : "https://fromthepage.com/iiif/32038260/layer/notes",
+    "@type" : "sc:Layer",
+    "label" : "notes layer"
+  } ]
+}
