@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://lmorreale3.github.io/TranscribeHopkins/manifests/rosemanifest.json",
     "label" : "Albi Rochegude 103"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://lmorreale3.github.io/TranscribeHopkins/manifests/Amiens437f1r.json",
+    "label" : "Amiens 437"
   } ]
 }
