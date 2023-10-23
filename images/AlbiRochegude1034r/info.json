@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 50,
+    "height" : 27
+  }, {
+    "width" : 99,
+    "height" : 54
+  }, {
+    "width" : 198,
+    "height" : 108
+  }, {
+    "width" : 396,
+    "height" : 216
+  }, {
+    "width" : 792,
+    "height" : 431
+  }, {
+    "width" : 1584,
+    "height" : 862
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1584,
+  "@id" : "https://lmorreale3.github.io/TranscribeHopkins/images/AlbiRochegude1034r",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 862
+}
